@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'onlinecourse.apps.OnlinecourseConfig',
     'adminsite.apps.AdminsiteConfig',
     'django.contrib.admin',
     'django.contrib.auth',
